@@ -17,6 +17,3 @@ def find_all_posts():
 
 posts = find_all_posts()
 print(posts)
-
-# Esta linea la pongo para comprobar que sincroniza y añado más en github
-# añado una más
