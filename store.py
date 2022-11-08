@@ -1,4 +1,3 @@
-from os import environ
 from supabase import create_client, Client
 from dotenv import dotenv_values
 
