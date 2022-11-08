@@ -10,7 +10,7 @@ key=config['SUPABASE_KEY']
 # Crear cliente supabase con los valores leidos de .env
 supabase: Client = create_client(url, key)
 
-# Function to Fetch All Games
+# Function to Fetch All Posts
 def find_all_posts():
     data = supabase.table("posts").select("*").execute()
     return data
